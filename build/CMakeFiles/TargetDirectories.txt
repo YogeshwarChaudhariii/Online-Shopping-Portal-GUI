@@ -1,0 +1,9 @@
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/OnlineShoppingQt.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/rebuild_cache.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/list_install_components.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/install.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/install/local.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/install/strip.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps.dir
+C:/msys64/home/yogeshwar/ccp_project/OnlineShoppingQt/build/CMakeFiles/OnlineShoppingQt_autogen.dir

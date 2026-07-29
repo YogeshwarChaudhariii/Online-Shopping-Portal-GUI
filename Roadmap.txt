@@ -1,0 +1,135 @@
+Lesson 1  → Qt Application Architecture
+Lesson 2  → Login Window
+Lesson 3  → Login Logic
+Lesson 4  → Customer Dashboard
+Lesson 5  → Restaurant List
+Lesson 6  → Menu Items
+Lesson 7  → Shopping Cart
+Lesson 8  → Checkout
+Lesson 9  → File Handling
+Lesson 10 → Polish UI
+
+Windows
+    │
+    ▼
+main()
+    │
+    ▼
+QApplication
+    │
+    ▼
+MainWindow
+    │
+    ▼
+Widgets are created
+    │
+    ▼
+Window is displayed
+    │
+    ▼
+Event Loop starts
+    │
+    ▼
+Wait for user actions
+
+OnlineShoppingQt/
+│
+├── CMakeLists.txt
+│
+├── src/
+│   ├── main.cpp
+│   ├── MainWindow.cpp
+│   └── MainWindow.h
+│
+├── ui/
+│   └── MainWindow.ui
+│
+├── models/
+│
+├── managers/
+│
+├── data/
+│
+├── resources/
+│
+└── images/
+
+
++--------------------------------------------------+
+|                                                  |
+|         ONLINE SHOPPING PORTAL                   |
+|                                                  |
+| Username                                         |
+| +--------------------------------------------+   |
+| |                                            |   |
+| +--------------------------------------------+   |
+|                                                  |
+| Password                                         |
+| +--------------------------------------------+   |
+| | ********                                   |   |
+| +--------------------------------------------+   |
+|                                                  |
+| [ Login ]   [ Guest Login ]                  |
+|                                                  |
+| Forgot Password?                               |
+|                                                  |
++--------------------------------------------------+
+
+
+###################################################
+
+# Login Algorithm
+
+Read Username
+
+↓
+
+Read Password
+
+↓
+
+Open File
+
+↓
+
+Read First Line
+
+↓
+
+Split
+
+↓
+
+Compare
+
+↓
+
+Not Match?
+
+↓
+
+Read Next Line
+
+↓
+
+Compare Again
+
+↓
+
+End of File?
+
+↓
+
+Invalid Login
+
+##########################################################
+
++------------------------------------------------------+
+| Welcome, Yogeshwar                                   |
++------------------------------------------------------+
+| Categories | Products                                |
+|------------|-----------------------------------------|
+| Pizza      | 🍕 Margherita      ₹300   [Add to Cart] |
+| Burgers    | 🍔 Veg Burger      ₹150   [Add to Cart] |
+| Drinks     | 🥤 Cola             ₹50   [Add to Cart] |
++------------------------------------------------------+
