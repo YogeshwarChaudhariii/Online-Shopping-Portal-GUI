@@ -1,0 +1,26 @@
+# ninja log v5
+2	1622	1785867624449817490	OnlineShoppingQt_autogen/timestamp	aae3a22c57c005a0
+2	1622	1785867624449817490	OnlineShoppingQt_autogen/mocs_compilation.cpp	aae3a22c57c005a0
+1623	2594	1785867625427778603	CMakeFiles/OnlineShoppingQt.dir/models/Product.cpp.o	ba62bc6b25d74ab3
+1623	2759	1785867625593130793	CMakeFiles/OnlineShoppingQt.dir/models/Cart.cpp.o	24dc8d2137db212b
+2	1622	1785867624449817490	/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/OnlineShoppingQt_autogen/timestamp	aae3a22c57c005a0
+3643	4207	1785867627039891004	OnlineShoppingQt	bf3cc20fd00d6e5a
+2	1622	1785867624449817490	/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/OnlineShoppingQt_autogen/mocs_compilation.cpp	aae3a22c57c005a0
+1622	3643	1785867626477432137	CMakeFiles/OnlineShoppingQt.dir/src/MainWindow.cpp.o	1033d54410098451
+1622	2843	1785867625676768726	CMakeFiles/OnlineShoppingQt.dir/OnlineShoppingQt_autogen/mocs_compilation.cpp.o	d11ba036282ad2e0
+1622	2844	1785867625678693839	CMakeFiles/OnlineShoppingQt.dir/src/main.cpp.o	c7ce271f844efbd8
+1623	3202	1785867626036073325	CMakeFiles/OnlineShoppingQt.dir/managers/LoginManager.cpp.o	8dd83c941e471b3a
+11	197	1786034704583274152	build.ninja	7f72f004c05f1cf8
+25	311	1786034704893838034	OnlineShoppingQt_autogen/timestamp	aae3a22c57c005a0
+25	311	1786034704893838034	OnlineShoppingQt_autogen/mocs_compilation.cpp	aae3a22c57c005a0
+25	311	1786034704893838034	/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/OnlineShoppingQt_autogen/timestamp	aae3a22c57c005a0
+25	311	1786034704893838034	/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/OnlineShoppingQt_autogen/mocs_compilation.cpp	aae3a22c57c005a0
+311	1378	1786034705966820391	CMakeFiles/OnlineShoppingQt.dir/OnlineShoppingQt_autogen/mocs_compilation.cpp.o	d11ba036282ad2e0
+311	1407	1786034705995843194	CMakeFiles/OnlineShoppingQt.dir/src/main.cpp.o	c7ce271f844efbd8
+312	1641	1786034706229844281	CMakeFiles/OnlineShoppingQt.dir/widgets/ProductCard.cpp.o	82e752423eb9ec72
+312	1913	1786034706501783630	CMakeFiles/OnlineShoppingQt.dir/src/MainWindow.cpp.o	1033d54410098451
+1913	2289	1786034706875847282	OnlineShoppingQt	173d552268cdf070
+28	95	1786035016170563605	OnlineShoppingQt_autogen/timestamp	aae3a22c57c005a0
+28	95	1786035016170563605	OnlineShoppingQt_autogen/mocs_compilation.cpp	aae3a22c57c005a0
+28	95	1786035016170563605	/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/OnlineShoppingQt_autogen/timestamp	aae3a22c57c005a0
+28	95	1786035016170563605	/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/OnlineShoppingQt_autogen/mocs_compilation.cpp	aae3a22c57c005a0

@@ -5,6 +5,7 @@
 
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
+#include "../widgets/ProductCard.h"
 
 MainWindow :: MainWindow( QWidget *parent ) 
             : QMainWindow( parent )
@@ -86,6 +87,61 @@ void MainWindow :: updateCart() {
     ui->lblTotal->setText(
         "Total : Rs. " + QString :: number( cart.getTotal() )
     );
+}
+
+void MainWindow ::
+loadProducts() {
+    Product laptop;
+    laptop.name="Laptop";
+    laptop.category="Electronics";
+    laptop.price=50000;
+
+    // ---------- Product 2 ----------
+    Product phone;
+    phone.name = "Phone";
+    phone.category = "Electronics";
+    phone.price = 25000;
+
+    // ---------- Product 3 ----------
+    Product keyboard;
+    keyboard.name = "Keyboard";
+    keyboard.category = "Accessories";
+    keyboard.price = 1500;
+
+    // ---------- Product 4 ----------
+    Product mouse;
+    mouse.name = "Mouse";
+    mouse.category = "Accessories";
+    mouse.price = 700;
+
+    QVector<Product> products;
+
+    products.append( laptop );
+    products.append( phone );
+    products.append( keyboard );
+    products.append( mouse );
+
+    // std :: vector<Product> products = Product :: loadProducts();
+
+    for ( const Product &product : products ) {
+        ProductCard *card = new ProductCard();
+
+        card->setProduct( product );
+
+        connect( card,
+                &ProductCard :: addToCartClicked,
+                this,
+            &MainWindow :: addProductToCart );
+
+        ui->productsLayout->addWidget( card );
+    }
+}
+
+void MainWindow ::
+addProductToCart( const Product &product ) {
+    cart.addProduct( product );
+
+    updateCart();
 }
 
 MainWindow :: ~MainWindow() {

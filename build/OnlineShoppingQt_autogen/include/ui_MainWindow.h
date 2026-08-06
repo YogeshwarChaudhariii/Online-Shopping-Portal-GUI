@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'MainWindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.11.1
+** Created by: Qt User Interface Compiler version 6.4.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -42,7 +42,7 @@ public:
     QLineEdit *txtUsername;
     QLabel *lblPassword;
     QLineEdit *txtPassword;
-    QPushButton *btnLogin_4;
+    QPushButton *btnLogin;
     QPushButton *btnGuest_4;
     QLabel *lblStatus;
     QWidget *pageDashboard;
@@ -51,7 +51,9 @@ public:
     QLabel *lblWelcome;
     QListWidget *listCategories;
     QScrollArea *scrollProducts;
-    QWidget *scrollAreaWidgetContents_3;
+    QWidget *productLayout;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *productsLayout;
     QTableWidget *tableCart;
     QLabel *lblTotal;
     QPushButton *btnCheckout;
@@ -62,7 +64,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(1011, 875);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         horizontalLayout_4 = new QHBoxLayout(centralwidget);
@@ -78,7 +80,6 @@ public:
         QFont font;
         font.setPointSize(18);
         lblTitle->setFont(font);
-        lblTitle->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         gridLayout->addWidget(lblTitle, 0, 0, 1, 2);
 
@@ -103,14 +104,14 @@ public:
 
         txtPassword = new QLineEdit(pageLogin);
         txtPassword->setObjectName("txtPassword");
-        txtPassword->setEchoMode(QLineEdit::EchoMode::Password);
+        txtPassword->setEchoMode(QLineEdit::Normal);
 
         gridLayout->addWidget(txtPassword, 4, 0, 1, 2);
 
-        btnLogin_4 = new QPushButton(pageLogin);
-        btnLogin_4->setObjectName("btnLogin_4");
+        btnLogin = new QPushButton(pageLogin);
+        btnLogin->setObjectName("btnLogin");
 
-        gridLayout->addWidget(btnLogin_4, 5, 0, 1, 1);
+        gridLayout->addWidget(btnLogin, 5, 0, 1, 1);
 
         btnGuest_4 = new QPushButton(pageLogin);
         btnGuest_4->setObjectName("btnGuest_4");
@@ -145,10 +146,16 @@ public:
         scrollProducts = new QScrollArea(pageDashboard);
         scrollProducts->setObjectName("scrollProducts");
         scrollProducts->setWidgetResizable(true);
-        scrollAreaWidgetContents_3 = new QWidget();
-        scrollAreaWidgetContents_3->setObjectName("scrollAreaWidgetContents_3");
-        scrollAreaWidgetContents_3->setGeometry(QRect(0, 0, 760, 54));
-        scrollProducts->setWidget(scrollAreaWidgetContents_3);
+        productLayout = new QWidget();
+        productLayout->setObjectName("productLayout");
+        productLayout->setGeometry(QRect(0, 0, 973, 221));
+        verticalLayoutWidget = new QWidget(productLayout);
+        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
+        verticalLayoutWidget->setGeometry(QRect(19, 19, 901, 191));
+        productsLayout = new QVBoxLayout(verticalLayoutWidget);
+        productsLayout->setObjectName("productsLayout");
+        productsLayout->setContentsMargins(0, 0, 0, 0);
+        scrollProducts->setWidget(productLayout);
 
         verticalLayout_2->addWidget(scrollProducts);
 
@@ -174,7 +181,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 33));
+        menubar->setGeometry(QRect(0, 0, 1011, 23));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -182,7 +189,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -196,7 +203,7 @@ public:
         txtUsername->setText(QCoreApplication::translate("MainWindow", "Enter username", nullptr));
         lblPassword->setText(QCoreApplication::translate("MainWindow", "Password", nullptr));
         txtPassword->setText(QCoreApplication::translate("MainWindow", "Enter password", nullptr));
-        btnLogin_4->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
+        btnLogin->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
         btnGuest_4->setText(QCoreApplication::translate("MainWindow", "Guest Login", nullptr));
         lblStatus->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         btnLogout->setText(QCoreApplication::translate("MainWindow", "Logout", nullptr));

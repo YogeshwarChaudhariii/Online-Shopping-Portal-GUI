@@ -1,0 +1,9 @@
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/OnlineShoppingQt.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/edit_cache.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/rebuild_cache.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/list_install_components.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/install.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/install/local.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/install/strip.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps.dir
+/home/yogeshwar/Desktop/Online-Shopping-Portal-GUI/CMakeFiles/OnlineShoppingQt_autogen.dir

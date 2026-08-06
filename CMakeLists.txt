@@ -13,6 +13,7 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_AUTOUIC_SEARCH_PATHS
     ${CMAKE_SOURCE_DIR}/ui
+    ${CMAKE_SOURCE_DIR}/Widgets 
 )
 
 # Find Qt
@@ -34,6 +35,7 @@ set(HEADERS
 # UI files
 set(UI_FILES
     ui/MainWindow.ui
+    widgets/ProductCard.ui
 )
 
 # Managers 
@@ -46,8 +48,15 @@ set(MANAGERS
 set(MODELS  
     models/Product.cpp
     models/Product.h
-    models/cart.cpp
-    models/cart.h 
+    models/Cart.cpp
+    models/Cart.h 
+)
+
+# Widgets
+set(WIDGETS
+    widgets/ProductCard.cpp
+    widgets/ProductCard.h 
+    widgets/ProductCard.ui
 )
 
 # Create executable
@@ -57,6 +66,7 @@ qt_add_executable(OnlineShoppingQt
     ${UI_FILES}
     ${MANAGERS}
     ${MODELS}
+    ${WIDGETS}
 )
 
 # Include directories

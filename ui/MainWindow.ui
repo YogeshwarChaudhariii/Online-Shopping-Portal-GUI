@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1011</width>
+    <height>875</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="pageLogin">
        <layout class="QGridLayout" name="gridLayout">
@@ -31,9 +31,6 @@
           </property>
           <property name="text">
            <string>ONLINE SHOPPING PORTAL</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -74,12 +71,12 @@
            <string>Enter password</string>
           </property>
           <property name="echoMode">
-           <enum>QLineEdit::EchoMode::Password</enum>
+           <enum>QLineEdit::Normal</enum>
           </property>
          </widget>
         </item>
         <item row="5" column="0">
-         <widget class="QPushButton" name="btnLogin_4">
+         <widget class="QPushButton" name="btnLogin">
           <property name="text">
            <string>Login</string>
           </property>
@@ -125,15 +122,26 @@
           <property name="widgetResizable">
            <bool>true</bool>
           </property>
-          <widget class="QWidget" name="scrollAreaWidgetContents_3">
+          <widget class="QWidget" name="productLayout">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>760</width>
-             <height>54</height>
+             <width>973</width>
+             <height>221</height>
             </rect>
            </property>
+           <widget class="QWidget" name="verticalLayoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>19</x>
+              <y>19</y>
+              <width>901</width>
+              <height>191</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="productsLayout"/>
+           </widget>
           </widget>
          </widget>
         </item>
@@ -165,8 +173,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>33</height>
+     <width>1011</width>
+     <height>23</height>
     </rect>
    </property>
   </widget>

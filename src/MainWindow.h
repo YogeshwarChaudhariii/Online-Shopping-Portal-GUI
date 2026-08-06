@@ -22,13 +22,17 @@ class MainWindow : public QMainWindow {
     private slots:
         void on_btnLogin_clicked();
         void on_btnLogout_clicked();
-        void updateCart();
+        void addProductToCart( const Product &product );
+
 
     private:
         Ui :: MainWindow *ui;
 
         LoginManager loginManager;
         Cart cart;
+
+        void updateCart();
+        void loadProducts();
 };
 
 #endif
