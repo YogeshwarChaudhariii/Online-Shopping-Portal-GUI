@@ -1,3 +1,15 @@
+Execution cmds
+cd ~/Desktop/Online-Shopping-Portal-GUI
+rm -rf build
+cmake -B build -S . -G Ninja
+cmake --build build
+
+git cmds
+git status
+git add .
+git commit -m "Describe your changes"
+git push
+
 Lesson 1  → Qt Application Architecture
 Lesson 2  → Login Window
 Lesson 3  → Login Logic

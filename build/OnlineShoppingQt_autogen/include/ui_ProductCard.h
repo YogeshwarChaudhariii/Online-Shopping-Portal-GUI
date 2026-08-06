@@ -72,7 +72,7 @@ public:
         lblName->setText(QString());
         lblCategory->setText(QString());
         lblPrice->setText(QString());
-        btnAddToCart->setText(QCoreApplication::translate("ProductCard", "PushButton", nullptr));
+        btnAddToCart->setText(QCoreApplication::translate("ProductCard", "btnAddToCart", nullptr));
     } // retranslateUi
 
 };

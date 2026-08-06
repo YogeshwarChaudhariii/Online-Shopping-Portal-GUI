@@ -2,6 +2,7 @@
 #include <QTextStream>
 #include <QMessageBox>
 #include <QTableWidgetItem>
+#include <QDebug>
 
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
@@ -12,12 +13,20 @@ MainWindow :: MainWindow( QWidget *parent )
             , ui( new Ui :: MainWindow ) {
     ui->setupUi( this );
 
+    qDebug() << "Before:" << ui->stackedWidget->currentIndex();
+
+    ui->stackedWidget->setCurrentWidget(ui->pageLogin);
+
+    qDebug() << "After:" << ui->stackedWidget->currentIndex();
+
+    loadProducts();
+
     
 
     setWindowTitle("Online Shopping Portal");
 
-    connect( ui->btnLogin_4, &QPushButton :: clicked,
-             this, &MainWindow :: on_btnLogin_clicked );
+    // connect( ui->btnLogin, &QPushButton :: clicked,
+    //          this, &MainWindow :: on_btnLogin_clicked );
 
     ui->listCategories->addItem("Electronics");
     ui->listCategories->addItem("Clothing");

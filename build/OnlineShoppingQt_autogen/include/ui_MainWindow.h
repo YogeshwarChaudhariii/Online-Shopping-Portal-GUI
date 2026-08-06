@@ -43,7 +43,7 @@ public:
     QLabel *lblPassword;
     QLineEdit *txtPassword;
     QPushButton *btnLogin;
-    QPushButton *btnGuest_4;
+    QPushButton *btnGuest;
     QLabel *lblStatus;
     QWidget *pageDashboard;
     QVBoxLayout *verticalLayout_2;
@@ -113,10 +113,10 @@ public:
 
         gridLayout->addWidget(btnLogin, 5, 0, 1, 1);
 
-        btnGuest_4 = new QPushButton(pageLogin);
-        btnGuest_4->setObjectName("btnGuest_4");
+        btnGuest = new QPushButton(pageLogin);
+        btnGuest->setObjectName("btnGuest");
 
-        gridLayout->addWidget(btnGuest_4, 5, 1, 1, 1);
+        gridLayout->addWidget(btnGuest, 5, 1, 1, 1);
 
         lblStatus = new QLabel(pageLogin);
         lblStatus->setObjectName("lblStatus");
@@ -189,7 +189,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -204,7 +204,7 @@ public:
         lblPassword->setText(QCoreApplication::translate("MainWindow", "Password", nullptr));
         txtPassword->setText(QCoreApplication::translate("MainWindow", "Enter password", nullptr));
         btnLogin->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
-        btnGuest_4->setText(QCoreApplication::translate("MainWindow", "Guest Login", nullptr));
+        btnGuest->setText(QCoreApplication::translate("MainWindow", "Guest Login", nullptr));
         lblStatus->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         btnLogout->setText(QCoreApplication::translate("MainWindow", "Logout", nullptr));
         lblWelcome->setText(QCoreApplication::translate("MainWindow", "Welcome", nullptr));

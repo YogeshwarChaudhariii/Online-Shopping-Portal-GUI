@@ -40,7 +40,7 @@
      <item>
       <widget class="QPushButton" name="btnAddToCart">
        <property name="text">
-        <string>PushButton</string>
+        <string>btnAddToCart</string>
        </property>
       </widget>
      </item>

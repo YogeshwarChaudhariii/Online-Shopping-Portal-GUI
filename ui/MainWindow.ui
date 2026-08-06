@@ -18,7 +18,7 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="pageLogin">
        <layout class="QGridLayout" name="gridLayout">
@@ -83,7 +83,7 @@
          </widget>
         </item>
         <item row="5" column="1">
-         <widget class="QPushButton" name="btnGuest_4">
+         <widget class="QPushButton" name="btnGuest">
           <property name="text">
            <string>Guest Login</string>
           </property>

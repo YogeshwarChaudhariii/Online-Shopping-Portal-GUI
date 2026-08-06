@@ -207,7 +207,7 @@ build OnlineShoppingQt_autogen/timestamp OnlineShoppingQt_autogen/mocs_compilati
 #############################################
 # Phony custom command for CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps
 
-build CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps: phony /usr/lib/qt6/libexec/uic /usr/lib/qt6/libexec/moc /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+build CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/OnlineShoppingQt_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/qt6/libexec/moc /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/qt6/libexec/uic
 
 
 #############################################
